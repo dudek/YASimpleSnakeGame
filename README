@@ -1,0 +1,18 @@
+This is simple snake game, based on double linked list structure, in text mode.
+The game was written for educational purposes.
+It is possible to play two people (hot-seat ;)), to run game in two player mode
+just run program with tp argument.
+Example:
+	./snake tp
+P1 controls	P2 controls
+W S A D		I K J L
+
+Second "feature" ;-) gives possible to set game speed, you can do that by
+running program with decimal argument from 0(slowest) to 9(fastest).
+Example (game in snail speed mode):
+	./snake 0
+Ofcourse you can use both arguments at the same time ;).
+To compile you need a C compiler and ncurses library installed.
+Ncurses library:
+	http://tldp.org/HOWTO/NCURSES-Programming-HOWTO/intro.html#WHERETOGETIT
+All comments in source code are in polish.
